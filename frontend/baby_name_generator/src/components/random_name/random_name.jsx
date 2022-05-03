@@ -9,9 +9,13 @@ const RandomName = (props)=>{
         alert(props.name.name)
     }
     return(
-<button onClick={showName}>Generate Name</button>
+        <div>
+            <button onClick={showName} type="button" class="btn btn-warning">click</button>
+            <div className="name-field">
+                <p className="shown-name">{props.name.name}</p>
+            </div>
 
-
+        </div>
     );
 };
 

@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import axios from 'axios';
 import  RandomName from './components/random_name/random_name';
+import './App.css';
+import underline from './underline.jpg';
 
 function App() {
   const [name,setName]=useState([]);
@@ -16,10 +18,10 @@ async function getName(){
 }
 
 
-console.log(name.name)
+
 
   return (
-    <section>
+    <section className='body'>
       <header>
         <div className='name-split'>
           <h1>Baby Namer</h1>
@@ -30,6 +32,7 @@ console.log(name.name)
           <h1>tor</h1>
         </div>
       </header>
+      <img src={underline}></img>
         <div>
           <RandomName name = {name}/>
         </div>

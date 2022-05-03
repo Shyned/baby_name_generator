@@ -2,6 +2,12 @@ header{
   border-bottom: solid black 1px;
   background-color:#FFE34D ;
   font-size: 50px;
+  margin-top: 10px;
+}
+.body{
+  border:#FF98D6 double 2px ;
+  width: 1920px;
+  height: 1080px;
 }
 
 .name-split{
@@ -17,4 +23,38 @@ header{
 
 .Giant-letter{
   font-size: 208px;
+}
+.btn{
+  width:200px ;
+  background-color: white;
+  border: grey solid 2px;
+  border-radius: 20px;
+  color: #FF98D6;
+  font-size: 40px;
+
+}
+
+
+.name-field{
+  width: 1100px ;
+  height: 150px;
+  border: #0077FF none 2px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-image: linear-gradient(#B1CDEE,#647386);
+
+}
+
+
+.shown-name{
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  width: 1028px;
+  border-radius: 20px;
+  margin-top:30px;
+  padding-left: 30em;
+  padding-top: 16px;
+ 
 }
