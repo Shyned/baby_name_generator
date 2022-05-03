@@ -1,13 +1,17 @@
 header{
-  border-bottom: solid black 1px;
+  border-bottom: none black 1px;
   background-color:#FFE34D ;
   font-size: 50px;
-  margin-top: 10px;
+  border-radius: 20px;
 }
 .body{
   border:#FF98D6 double 2px ;
-  width: 1920px;
-  height: 1080px;
+  width: 98%;
+  height: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 20px;
 }
 
 .name-split{
@@ -24,14 +28,18 @@ header{
 .Giant-letter{
   font-size: 208px;
 }
-.btn{
+.btn-warning{
   width:200px ;
   background-color: white;
   border: grey solid 2px;
   border-radius: 20px;
   color: #FF98D6;
   font-size: 40px;
+margin-left: 50%;
+}
 
+img{
+  margin-left: 50%;
 }
 
 
@@ -54,6 +62,7 @@ header{
   width: 1028px;
   border-radius: 20px;
   margin-top:30px;
+  margin-bottom: 20%;
   padding-left: 30em;
   padding-top: 16px;
  
